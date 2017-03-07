@@ -1,11 +1,12 @@
 package com.yx.service;
 
 import com.yx.model.Person;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Service(value = "demoService")
 public class DemoServiceImpl implements DemoService {
 
     public String sayHello(String name) {
