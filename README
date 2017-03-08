@@ -1,1 +1,12 @@
 This file was created by IntelliJ IDEA 12.0.1 for binding GitHub repository
+
+所用到的项目组件：
+	zookeeper、dubbo-admin-2.5.4.war
+
+启动顺序：
+	一、启动zookeeper
+	二、启动dubbo监控项目（可选）
+		将dubbo-admin-2.5.4.war项目部署到tomcat根目录（ROOT）中，配置dubbo.properties文件
+		启动tomcat
+	三、运行provider项目test下的Main.java，负责暴露服务接口
+	四、启动consumer项目，订阅接口

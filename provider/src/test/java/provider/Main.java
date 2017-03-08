@@ -1,4 +1,4 @@
-package com.yx.provider;
+package provider;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
